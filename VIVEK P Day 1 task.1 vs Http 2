@@ -1,0 +1,13 @@
+Http 1.1 vs Http 2
+HTTP 1.1:
+HTTP is known as Hypertext transfer protocol which is used to tranfer neccessary  informations for client from the web using some protocol.it acts as a pipelining
+to connect client and server using IP address,MAC address and port number.
+The port number starts from the range of 80 to 60000.
+http 1 loads single request for every TCP connection.in http1.1 the tcp connection can be reusable so that multiple responses and requests can be done by pipelining 
+so that client can search for various resourses from the same server at the same time but for each and every search only one request and response only possible in http1.1
+Http 1.1 gives status codes like 1xx,2xx,3xx,4xx,5xx.
+HTTP2:
+Http 2 is much faster and reliable than http1.1.This protocol uses multiplexing where the initiating tcp connection is comparatively very fast.In http2 muliple responses
+can be attained by single request.Http2 also have server push method so that it can give relevant search results even there is no such requests given.It uses caches and 
+if the client searched resourses is found means it can cancel the pushed request with the help of this server push method.Status codes for http2 are same like http1.1
+Http loads web page very quick and it reduces network traffic.
